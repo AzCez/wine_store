@@ -5,3 +5,8 @@
     background-color: lightblue;
 
 }
+
+.cart {
+    display: flex;
+    justify-content: flex-end;
+}
