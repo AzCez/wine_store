@@ -8,6 +8,12 @@
 }
 
 .wine-card {
+    height: 100%;
+    text-align: center;
     background-color: white;
     
+}
+
+.wine-card img{
+    height: 150px;
 }
