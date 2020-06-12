@@ -1,10 +1,13 @@
 .wine-cards{
+    width: 100%;
     background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
 
 }
 
 .wine-card {
+    background-color: white;
     
 }
