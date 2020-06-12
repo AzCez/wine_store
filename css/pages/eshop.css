@@ -1,9 +1,15 @@
 .intro{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: lightblue;
+    align-items: center; */
+    background-color: white;
+    margin: 3rem 10rem ;
+    padding: 10rem auto;
 
+}
+
+.intro-box{
+    background-image: url("/images/wine-bottle.jpg");
 }
 
 .cart {
