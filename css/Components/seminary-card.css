@@ -20,6 +20,12 @@
 
 
 /* --------customer review----------- */
+
+.customer-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
 .customer-title{
     display: flex;
 }
