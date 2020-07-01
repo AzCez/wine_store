@@ -4,10 +4,12 @@
 /* --- Components design --- */
 @import url("components/navbar.css");
 @import url("Components/wine-card.css");
+@import url("Components/seminary-card.css");
 
 
 /* --- Layouts --- */
 @import url("pages/eshop.css");
+@import url("pages/seminary.css");
 
 
 /* --- Fonts & colors --- */
@@ -21,13 +23,6 @@ h1, h2, h3 {
 .text-center {
   text-align: center;
 }
-
-
-
-
-
-
-
 
 
 
