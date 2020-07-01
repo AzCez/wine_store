@@ -12,8 +12,19 @@
 
 
 
-/* ------------------- */
+/* -------secret------------ */
 
 .secret-card img{
     height: 200px;
+}
+
+
+/* --------customer review----------- */
+.customer-title{
+    display: flex;
+}
+
+.customer-card img{
+    height: 100px;
+    border-radius: 50%;
 }
