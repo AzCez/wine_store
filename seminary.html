@@ -37,7 +37,7 @@
 
         <!-- 2ndBlock Form -->
         <div class="request-form row justify-content-center">
-            <div >
+            <div id="seminary-form" >
                 <h1>Nous vous acceuillons</h1>
                 <p>
                     Vous avez des difficultés à choisir le château idéal? Un Jour Au Château estlà   pour   vous   conseiller.   Notre   équipe   étudiera   votre   demande   sous   24h pour vous proposer un accompagnement personnalisé pour la réussite devotre événement.
@@ -46,76 +46,78 @@
                     Vous pouvez également nous appeler directement au <strong>03.58.19.01.26</strong> 
                 </p>
                 <!-- form  -->
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputName"></label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Nom">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="phone"></label>
-                            <input type="tel" class="form-control" id="phone" placeholder="Telephone" >
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputCompanyName"></label>
-                            <input type="text" class="form-control" id="inputCompanyName" placeholder="Entreprise">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail"></label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="email" >
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="eventType"></label>
-                            <select id="eventType" class="form-control">
-                                <option selected>Type d'evenement</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="entertainmentType"></label>
-                            <select id="entertainmentType" class="form-control">
-                                <option selected>Animations Souhaitée</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="date">Date</label>
-                            <select id="date" class="form-control">
-                                <option selected>Date</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <!-- Calendar INPUT -->
-                        <!-- <div class="form-group col-md-6">
-                            <label for="date">Date</label>
-                            <div class="col-md-6">
-                                <input type="date" id="date">
+                <div>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputName"></label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Nom">
                             </div>
-                        </div> -->
-                        <div class="form-group col-md-6">
-                            <label for="budget"></label>
-                            <select id="budget" class="form-control">
-                                <option selected>Budget</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
+                            <div class="form-group col-md-6">
+                                <label for="phone"></label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Telephone" >
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputCompanyName"></label>
+                                <input type="text" class="form-control" id="inputCompanyName" placeholder="Entreprise">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail"></label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="email" >
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="eventType"></label>
+                                <select id="eventType" class="form-control">
+                                    <option selected>Type d'evenement</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="entertainmentType"></label>
+                                <select id="entertainmentType" class="form-control">
+                                    <option selected>Animations Souhaitée</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="date">Date</label>
+                                <select id="date" class="form-control">
+                                    <option selected>Date</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                            <!-- Calendar INPUT -->
+                            <!-- <div class="form-group col-md-6">
+                                <label for="date">Date</label>
+                                <div class="col-md-6">
+                                    <input type="date" id="date">
+                                </div>
+                            </div> -->
+                            <div class="form-group col-md-6">
+                                <label for="budget"></label>
+                                <select id="budget" class="form-control">
+                                    <option selected>Budget</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="messageArea">Message...</label>
+                                <textarea class="form-control" id="messageArea" cols="15" rows="3" placeholder="Message..."></textarea>
+                            </div>
                         </div>
-                        <div class="form-group col-md-12">
-                            <label for="messageArea">Message...</label>
-                            <textarea class="form-control" id="messageArea" cols="15" rows="3" placeholder="Message..."></textarea>
+                        <div class="col text-center">
+                            <button class="btn btn-primary cold-md-12 justify-content-center" type="submit">ENVOYER</button>                
                         </div>
-                    </div>
-                    <div class="col text-center">
-                        <button class="btn btn-primary cold-md-12 justify-content-center" type="submit">ENVOYER</button>                
-                    </div>
-                </form>
+                    </form>
+                </div>
                 <!-- /form  -->
             </div>
         </div>
@@ -306,7 +308,7 @@
                 <!--First slide-->
                 <div class="carousel-item active">
                     
-                    <a href="">
+                    <!-- <a href=""> -->
                         <div class="col-md-4" style="float:left">
                             <div class="card mb-2 secret-card">
                                 <img class="card-img-top"
@@ -317,9 +319,9 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    <!-- </a> -->
                     
-                    <a href="https://www.unjourauchateau.com/guide-seminaire">
+                    <!-- <a href="https://www.unjourauchateau.com/guide-seminaire"> -->
                         <div class="col-md-4" style="float:left">
                             <div class="card mb-2 secret-card">
                                 <img class="card-img-top"
@@ -330,9 +332,9 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    <!-- </a> -->
 
-                    <a href="https://www.unjourauchateau.com/guide-seminaire/objectifs">
+                    <!-- <a href="https://www.unjourauchateau.com/guide-seminaire/objectifs"> -->
                         <div class="col-md-4" style="float:left">
                             <div class="card mb-2 secret-card">
                                 <img class="card-img-top"
@@ -347,7 +349,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    <!-- </a> -->
                     
                 </div>
                 <!--/.First slide-->
@@ -366,7 +368,7 @@
             <h1>Ce qu'ils pensent d'Un Jour Au Chateau</h1>
 
             
-            <div class="customer-cards">
+            <div class="row customer-cards">
                 <!-- Review #1 -->
                 <div class="customer-card col-3">
                     <div class="customer-title">

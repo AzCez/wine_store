@@ -10,6 +10,15 @@
     background-size: cover;
 }
 
+/* ----------Form----------------- */
+
+
+#seminary-form{
+    width: 60%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.74);
+    margin-top: 1rem;
+}
 
 
 /* -------castle selection------------ */
@@ -65,15 +74,22 @@
 }
 
 
+
 /* --------customer review----------- */
 
 .customer-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+
+.customer-card{
+    background-color: rgba(255, 255, 255, 0.74);
 }
 
 .customer-title{
     display: flex;
+    
 }
 
 .customer-card img{
