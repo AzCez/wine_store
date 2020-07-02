@@ -15,7 +15,7 @@
 /* -------castle selection------------ */
 
 .castle-selection-color{
-    background-color: salmon;
+    background-color: #c9a88f;
 }
 
 .request-form{
@@ -37,12 +37,17 @@
 
 /* -------Sketch------------ */
 .expert{
-    background-color: yellow;
+    background-color: #f0ece2;
 }
 /* -------secret------------ */
 
 .secret-card img{
     height: 200px;
+}
+
+.card{
+    background-color: #c9a88f;
+    border: none;
 }
 
 
