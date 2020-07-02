@@ -25,6 +25,7 @@
 
 .castle-selection-color{
     background-color: #c9a88f;
+    text-align: center;
 }
 
 .request-form{
@@ -61,11 +62,16 @@
 /* -------Sketch------------ */
 .expert{
     background-color: #f0ece2;
+    justify-content: center;
+    
 }
+
+
 /* -------secret------------ */
 
 .secret-card img{
     height: 200px;
+    
 }
 
 .card{
