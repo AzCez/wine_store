@@ -44,6 +44,11 @@
     margin-bottom: 1rem;
 }
 
+.carousel-indicators{
+    display: none;
+
+}
+
 /* -------Sketch------------ */
 .expert{
     background-color: #f0ece2;
