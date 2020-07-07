@@ -27,7 +27,7 @@
 .castle-selection-color{
     background-color: #c9a88f;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .request-form{
@@ -41,7 +41,7 @@
 }
 
 .card-body{
-    color: white;
+    /* color: white; */
 }
 
 
