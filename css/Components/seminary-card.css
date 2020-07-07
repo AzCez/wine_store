@@ -189,6 +189,10 @@
     padding-bottom: 2rem;
 }
 
+.fa-star, .fa-star-half-alt{
+    color: gold;
+}
+
 
 /* ----------carousel--------- */
 
