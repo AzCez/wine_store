@@ -21,6 +21,11 @@
     margin-top: 1rem;
 }
 
+.form-control{
+    border-radius: 20px;
+    border: none;
+}
+
 
 /* -------castle selection------------ */
 
@@ -28,6 +33,11 @@
     background-color: #c9a88f;
     text-align: center;
     color: black;
+}
+
+.castle-selection-intro{
+    width: 60%;
+
 }
 
 .request-form{

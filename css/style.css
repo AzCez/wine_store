@@ -1,8 +1,8 @@
 /* --- Google Fonts --- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+/* @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700"); */
 
 /* Designer fonts  */
-/* @import url('https://fonts.googleapis.com/css2?family=Abel&family=Yeseva+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Yeseva+One&display=swap');
 
 
 /* --- Components design --- */
@@ -18,16 +18,16 @@
 
 /* --- Fonts & colors --- */
 body {
-  /* font-family: 'Abel', sans-serif; */
-  font-family: "Open Sans", "Helvetica", "sans-serif";
-  font-size: medium;
+  font-family: 'Abel', sans-serif;
+  /* font-family: "Open Sans", "Helvetica", "sans-serif"; */
+  font-size: large;
   margin: 0;
   background-color: rgb(240,240,240);
 }
 h1, h2, h3 {
-  /* font-family: 'Yeseva One', cursive;
-   */
-  font-family: "Poppins", "sans-serif";
+  font-family: 'Yeseva One', cursive;
+   
+  /* font-family: "Poppins", "sans-serif"; */
   font-size: xx-large;
   padding: 2rem 0rem ;
 }
