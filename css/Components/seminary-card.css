@@ -31,12 +31,12 @@
 
 .castle-selection-color{
     background-color: #c9a88f;
-    text-align: center;
     color: black;
 }
 
 .castle-selection-intro{
     width: 60%;
+    text-align: center;
 
 }
 
