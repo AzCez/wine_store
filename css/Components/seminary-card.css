@@ -66,6 +66,10 @@
     justify-content: center;
 }
 
+.expert h1{
+    font-size: xx-large;
+}
+
 .sketches{
     
     display: flex;
