@@ -22,27 +22,232 @@
 
 
       <!-- navbar  -->
+
+
       <div class="container">
-        <div class="row navbar">
-          <h1>NavBar</h1>
-        </div>
+        <!-- <div class="row navbar"> -->
+          <!-- <h1>NavBar</h1> -->
+        <!-- </div> -->
+
+        <!--Navbar-->
+          <nav class="navbar navbar-light light-blue lighten-4">
+
+           
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+              aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                  class="fas fa-bars fa-1x"></i></span></button>
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+              <!-- Links -->
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Vin <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Chateau</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sejours</a>
+                </li>
+              </ul>
+              <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+          </nav>
+        <!--/.Navbar-->
+
+
+
       </div>
+
+
       <!-- /navbar  -->
 
 
       <!-- Intro -->
       <div class="container">
-        <div class="row intro">
-          <h1>Vins et séjours en direct des châteaux</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row intro-box">
+          <div class="intro">
+            <h1>Vins et séjours en direct des châteaux</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+          </div>
+        
         </div>
       </div>
       <!-- /intro  -->
 
       <!-- cart -->
-      <a href="#"><i class="fas fa-shopping-cart"></i> Panier</a>
+      <div class="container">
+        <div class="row cart">
+          <a href="#">
+            <i class="fas fa-shopping-cart"></i>
+            Panier 
+          </a>
+        </div>
+      </div>
       <!-- /cart  -->
+
+
+     
+      <div class="container d-flex">
+        <!-- filters -->
+          <div class="Filer-side-bar">
+            <h2>Produit</h2>
+            <ul>
+              <li>Vins</li>
+              <li>Sejours</li>
+              <li>Promotions</li>
+            </ul>
+            <h2>Filtres Vins</h2>
+            <h3>Spécificité</h3>
+            <ul>
+              <li>Rouges</li>
+              <li>Rosé</li>
+              <li>Blancs</li>
+              <li>Petillants</li>
+              <li>Champagne</li>
+            </ul>
+            <h3>Appelation</h3>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <h3>Region</h3>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <h3>Prix Vins</h3>
+            <!-- range slider -->
+            <b>€ 10</b>
+              <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> 
+            <b>€ 1000</b>
+            <!-- /range slider  -->
+            <h2>Filtres Sejours</h2>
+            <h3>Activités</h3>
+            <ul>
+              <li>Golf</li>
+              <li>Visite du Chateau</li>
+              <li>Degustation de vins</li>
+              <li>Restauration par un chef etoilé</li>
+              <li>Balade equestre</li>
+            </ul>
+            <h3>Nombre de personnes</h3>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <h3>Nombre de nuits</h3>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <h3>Région</h3>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <h3>Prix Vins</h3>
+            <!-- range slider -->
+            <b>€ 10</b>
+              <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> 
+            <b>€ 1000</b>
+            <!-- /range slider  -->
+          </div>
+        <!-- /filters  -->
+        
+        <div class="container">
+          <!-- wine -->
+          <div class="wine-cards">
+
+            <div class="wine-card">
+              <img src="/images/wine-bottle.jpg" alt="">
+              <h3>Macon La Roche Vineuse</h3>
+              <h3>11,00e/75cl</h3>
+              <p>Caisse de 6 bouteilles pour 66,00e</p>
+              <a href="#" class="btn btn-secondary">
+                Ajouter au Panier
+              </a>
+              <p>Voir la fiche technique</p>
+            </div>
+
+
+
+
+
+
+
+            <div class="wine-card">
+              <img src="/images/wine-bottle.jpg" alt="">
+              <h3>Macon La Roche Vineuse</h3>
+              <h3>11,00e/75cl</h3>
+              <p>Caisse de 6 bouteilles pour 66,00e</p>
+              <a href="#" class="btn btn-secondary">
+                Ajouter au Panier
+              </a>
+              <p>Voir la fiche technique</p>
+            </div>
+
+
+
+            <div class="wine-card">Card 3</div>
+            <div class="wine-card">Card 4</div>
+            <div class="wine-card">Card 5</div>
+            <div class="wine-card">Card 6</div>
+            <!-- <div class="wine-card">Card 7</div>
+            <div class="wine-card">Card 7</div>
+            <div class="wine-card">Card 9</div>
+            <div class="wine-card">Card 10</div> -->
+
+          </div>
+          <!-- wine  -->
+          
+        </div>
+
+        
+      
+      </div>
+     
   
 
 
@@ -55,5 +260,14 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+   
+
+
+    
+
+
+
+
   </body>
 </html>

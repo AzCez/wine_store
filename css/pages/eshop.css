@@ -1,7 +1,19 @@
 .intro{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: lightblue;
+    align-items: center; */
+    background-color: rgba(255, 255, 255, 0.74);
+    margin: 3rem 10rem ;
+    padding: 10rem auto;
+    text-align: center;
 
+}
+
+.intro-box{
+    background-image: url("/images/wine-bottle.jpg");
+}
+
+.cart {
+    display: flex;
+    justify-content: flex-end;
 }
