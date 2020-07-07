@@ -41,7 +41,7 @@
 }
 
 .card-body{
-    /* color: white; */
+    color: white;
 }
 
 
@@ -64,11 +64,34 @@
 .expert{
     background-color: #f0ece2;
     justify-content: center;
+}
+
+.sketches{
+    
+    display: flex;
+    
     
 }
 
+.sketch-card{
+    text-align: center;
+    
+}
+
+.sketch-card img{
+    height: 250px;
+    /* width: 250px; */
+    border-radius: 50%;
+}
 
 /* -------secret------------ */
+
+.secret p{
+    color: white;
+    width: 0 100px;
+}
+
+
 
 .secret-card img{
     height: 200px;
