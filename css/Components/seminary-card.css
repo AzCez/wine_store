@@ -176,7 +176,8 @@
 
 
 .customer-review{
-    background-image: url('/images/castle_pic.jpg') ;
+    /* background-image: url('/images/castle_pic.jpg') ; */
+    background-color: #f0ece2;
     background-size: cover;
 }
 
