@@ -26,6 +26,14 @@
     border: none;
 }
 
+.btn-primary{
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    margin-bottom: 1rem;
+}
+
 
 /* -------castle selection------------ */
 
@@ -83,12 +91,14 @@
 .sketches{
     
     display: flex;
+    width: 80%;
     
     
 }
 
 .sketch-card{
     text-align: center;
+  
     
 }
 
@@ -98,6 +108,11 @@
     border-radius: 50%;
 }
 
+.sketch-card p{
+  
+
+    margin: 2rem 1rem;
+}
 /* -------secret------------ */
 
 .secret p{
