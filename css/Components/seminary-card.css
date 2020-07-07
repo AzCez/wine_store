@@ -92,6 +92,15 @@
 }
 
 
+.secret-intro{
+    width: 650px;
+}
+
+.secret-intro h1{
+    width: 650px;
+    font-size: x-large;
+}
+
 
 .secret-card img{
     height: 200px;
