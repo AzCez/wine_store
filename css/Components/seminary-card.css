@@ -6,8 +6,9 @@
 
 
 .intro-seminary{
-    background-image: url('/images/castle_pic.jpg') ;
+    background-image: url('/images/banner_castle.jpg') ;
     background-size: cover;
+    background-position: center;
 }
 
 /* ----------Form----------------- */
@@ -16,7 +17,7 @@
 #seminary-form{
     width: 60%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.74);
+    /* background-color: rgba(255, 255, 255, 0.74); */
     margin-top: 1rem;
 }
 
@@ -30,8 +31,9 @@
 }
 
 .request-form{
-    background-image: url('/images/castle_pic.jpg') ;
+    /* background-image: url('/images/castle_pic.jpg') ; */
     background-size: cover;
+    background-color: #f0ece2;
 }
 
 .card-img-top{
