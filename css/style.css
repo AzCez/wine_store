@@ -29,6 +29,7 @@ h1, h2, h3 {
    */
   font-family: "Poppins", "sans-serif";
   font-size: xx-large;
+  padding: 2rem 0rem ;
 }
 .text-center {
   text-align: center;
